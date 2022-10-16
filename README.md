@@ -1,7 +1,7 @@
 
 # URL Shortner Extension
 
-A chrome extension to shorten long URLs
+A chrome extension to block Websites
 
 ## HOW TO USE
  Download the files
