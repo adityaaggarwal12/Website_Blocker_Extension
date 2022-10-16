@@ -9,15 +9,9 @@ let loader = document.querySelector('.loading');
 
 let blockUrls=["wix"];
 chrome.storage.local.set({ "website": JSON.stringify(blockUrls) }, function() { console.log("done") });
-// chrome.storage.local.get(["website"], function (result) {
-//     url=result.website;
-// });
-
 
 submitBtn.addEventListener('click', () => {
     if(api.value){
-        //chrome.storage.local.set({ "website ": api.value }, function() { console.log("done") });
-        // blockUrls = JSON.parse(chrome.storage.local.getItem("website"), function (result){ console.log(result)});
         chrome.storage.local.get(["website"], function (result) {
             blockUrls = JSON.parse(result.website);
         });
