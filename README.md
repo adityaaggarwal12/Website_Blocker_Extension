@@ -12,4 +12,12 @@ A chrome extension to block Websites
  and load the files and extension will be loaded and now you can use it
 
  enter the name of any website to block it
+
+ ## Screenshots
+
+ ![before](./before.png)
+ ![extension use](./extension.png)
+ ![after](./after.png)
+
+
  
